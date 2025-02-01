@@ -1,0 +1,18 @@
+REMOVE USERNAME AND EMAIL FROM GLOBAL
+git config - -global - -unset user.name=ayusha
+git config -- global--unset user.email=ayu13@gmail.com
+
+TO CHECK WHETHER USER IS REMOVED
+git config -- global --list
+
+REMOVE USER FROM LOCAL
+git config --unset user.name
+
+git config --list
+
+REMOVE FROM WINdows credential
+git credential regect https://github.com
+cmd key /delete:git:https://github.com
+
+user is visible or not
+git log --author=yourname
